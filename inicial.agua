@@ -1,0 +1,22 @@
+package com.project;
+
+/*Clase Agua*/ 
+public class Agua {
+    /*Volumen en litros*/
+    private double volumen;
+
+    /*Constructor*/
+    public Agua(double volumen) {
+        this.volumen = volumen;
+    }
+
+    /*Método para obtener el volumen*/ 
+    public double getVolumen() {
+        return volumen;
+    }
+
+    /*Método para describir el estado del agua*/ 
+    public void estado() {
+        logger("El agua está en estado líquido.");
+    }
+}
